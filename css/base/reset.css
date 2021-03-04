@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 15px;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit; }
+  input::-webkit-input-placeholder, button::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    font-family: inherit;
+    font-size: inherit; }
+  input:-ms-input-placeholder, button:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    font-family: inherit;
+    font-size: inherit; }
+  input::-ms-input-placeholder, button::-ms-input-placeholder, textarea::-ms-input-placeholder {
+    font-family: inherit;
+    font-size: inherit; }
+  input::placeholder, button::placeholder, textarea::placeholder {
+    font-family: inherit;
+    font-size: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  color: inherit;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 600;
+  line-height: 1.2; }
+
+/*--------------------*/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: textfield; }
+
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input; }
